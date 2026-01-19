@@ -1,0 +1,21 @@
+.btn{
+    --btn-idle-fill: var(--clr-orange);
+    --btn-active-fill:var(--clr-blue);
+    --btn-label-color: white;
+    
+
+    /*Reset*/
+    font-family: var(--font-base);
+    font-size: 18px;
+    line-height: 32px;
+    background: none;
+    border: none;
+
+    /*Style*/
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    flex: none;
+    cursor: pointer;
+}

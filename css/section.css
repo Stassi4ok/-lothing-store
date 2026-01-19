@@ -1,0 +1,14 @@
+.section-content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xl);
+    padding: var(--gap-xl) 0;
+    
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xl);
+    max-width: var(--width-sm);  
+}

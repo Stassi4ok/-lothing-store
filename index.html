@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/button.css">
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/section.css">
+        <link rel="stylesheet" href="./css/typography.css">
+        <link rel="stylesheet" href="./css/vars.css">
+        <link rel="stylesheet" href="./css/card.css">
+
+
+
     </head>
 
     <body>
-        
+        <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+            <symbol id="searchSVG" viewBox="0 0 25 25">  
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7347 16.6748L20.2803 19.2196C20.9875 19.9266 19.927 20.9874 19.2197 20.2804L16.674 17.7354C13.616 20.2576 9.10466 20.0648 6.26992 17.2301C3.24336 14.2035 3.24336 9.29649 6.26992 6.26992C9.29649 3.24336 14.2035 3.24336 17.2301 6.26992C20.0651 9.10493 20.2576 13.6168 17.7347 16.6748ZM16.1694 7.33058C13.7286 4.88981 9.77136 4.88981 7.33058 7.33058C4.88981 9.77136 4.88981 13.7286 7.33058 16.1694C9.77136 18.6102 13.7286 18.6102 16.1694 16.1694C18.6102 13.7286 18.6102 9.77136 16.1694 7.33058Z" fill="currentColor"/>  
+            </symbol>
+
+            <symbol id="burgerMenuSVG" viewBox="0 0 20 17">
+                <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1ZM0 8C0 7.44772 0.447715 7 1 7H19C19.5523 7 20 7.44772 20 8C20 8.55228 19.5523 9 19 9H1C0.447715 9 0 8.55228 0 8ZM1 15C0.447715 15 0 15.4477 0 16C0 16.5523 0.447715 17 1 17H19C19.5523 17 20 16.5523 20 16C20 15.4477 19.5523 15 19 15H1Z"
+                />
+            </symbol>
+
+
+            <symbol id="profileSVG" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9333 11.4377C9.56068 11.4377 7.6373 9.51735 7.6373 7.14852C7.6373 4.77969 9.56068 2.85938 11.9333 2.85938C14.3059 2.85938 16.2293 4.77969 16.2293 7.14852C16.2293 9.51735 14.3059 11.4377 11.9333 11.4377ZM11.9333 12.3908C15.8876 12.3908 19.0933 15.5913 19.0933 19.5394V21.4457C19.0933 21.7089 18.8796 21.9222 18.6159 21.9222H5.25065C4.98702 21.9222 4.77332 21.7089 4.77332 21.4457V19.5394C4.77332 15.5913 7.97894 12.3908 11.9333 12.3908Z" fill="currentColor"/>
+            </symbol>
+
+            <symbol id="heartSVG" viewBox="0 0 30 30">        
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4766 7.66761C17.701 5.44413 21.3073 5.44413 23.5316 7.66761C25.7561 9.89121 25.7561 13.4965 23.5316 15.7201L15.4242 23.8243C15.1899 24.0586 14.8101 24.0586 14.5758 23.8243L6.46835 15.7201C4.24387 13.4965 4.24387 9.89121 6.46835 7.66761C8.6927 5.44413 12.299 5.44413 14.5233 7.66761L15 8.14407L15.4766 7.66761Z" fill="currentColor"/>
+            </symbol>
+
+            <symbol id="bagSVG" viewBox="0 0 30 30">
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    fill="currentColor"
+                    d="M1.59113 2.4C1.59113 1.76348 1.84258 1.15303 2.29016 0.702944C2.73775 0.252856 3.34481 0 3.97779 0H19.8889C20.5219 0 21.1289 0.252856 21.5765 0.702944C22.0241 1.15303 22.2756 1.76348 22.2756 2.4V21.6C22.2756 22.2365 22.0241 22.847 21.5765 23.2971C21.1289 23.7471 20.5219 24 19.8889 24H3.97779C3.34481 24 2.73775 23.7471 2.29016 23.2971C1.84258 22.847 1.59113 22.2365 1.59113 21.6V2.4ZM15.9111 7.2C15.9111 8.26087 15.492 9.27828 14.7461 10.0284C14.0001 10.7786 12.9883 11.2 11.9333 11.2C10.8784 11.2 9.86661 10.7786 9.12063 10.0284C8.37466 9.27828 7.95557 8.26087 7.95557 7.2V3.2H6.36446V7.2C6.36446 8.68521 6.95118 10.1096 7.99555 11.1598C9.03992 12.21 10.4564 12.8 11.9333 12.8C13.4103 12.8 14.8268 12.21 15.8711 11.1598C16.9155 10.1096 17.5022 8.68521 17.5022 7.2V3.2H15.9111V7.2Z"
+                />
+            </symbol>
+
+        </svg>
+
+        <header class="grid-container page-header ">
+            <div class="grid-content header-content">
+                    
+                <a href="#home">
+                    <p class="paragraph-p3 clr-white">Attire</p>
+                </a>
+                
+                <div class="tool">
+                    <div class="search">
+                        <input placeholder="Search something...">
+                        <button class="btn ">
+                            <svg class="icon">
+                                <use href="#searchSVG"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <a href="#profile">
+                        <svg class="icon">
+                            <use href="#profileSVG"></use>
+                        </svg>
+                    </a>
+                    <a href="#wishlist">
+                        <svg class="icon">
+                            <use href="#heartSVG"></use>
+                        </svg>
+                    </a>
+                    <a href="#cheackout">
+                        <svg class="icon">
+                            <use href="#bagSVG"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+        </header>
 
         <main id="content"></main>
         <script type="module" src=".././js/router/router.js"></script>

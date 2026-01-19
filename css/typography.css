@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Heading*/
+.heading-h1,
+.heading-h2,
+.heading-h3,
+.heading-h4,
+.heading-h5,
+.heading-h6,
+.heading-h7{
+    font-family: var(--font-base);
+}
+.heading-h1{
+    font-size: 48px;
+}
+
+.heading-h2{
+    font-size: 44px;
+}
+
+.heading-h3{
+    font-size: 40px;
+}
+.heading-h4{
+    font-size: 36px;
+}
+.heading-h5{
+    font-size: 32px;
+}
+.heading-h6{
+    font-size: 24px;
+}
+.heading-h7{
+    font-size: 20px;
+}
+
+/*Paragraph*/
+.paragraph-p1,
+.paragraph-p2,
+.paragraph-p3,
+.paragraph-p4,
+.paragraph-p5,
+.paragraph-p6{
+    font-family: var(--font-base);
+}
+.paragraph-p1{
+    font-size: 40px;
+}
+.paragraph-p2{
+    font-size: 34px;
+}
+.paragraph-p3{
+    font-size: 28px;
+}
+.paragraph-p4{
+    font-size: 22px;
+}
+.paragraph-p5{
+    font-size: 18px;
+}
+.paragraph-p6{
+    font-size: 16px;
+}
+
+/*Body text*/
+.body-txt-b1,
+.body-txt-b2,
+.body-txt-b3,
+.body-txt-b4,
+.body-txt-b5,
+.body-txt-b6{
+    font-family: var(--font-second);
+}
+.body-txt-b1{
+    font-size: 24px;
+}
+.body-txt-b2{
+    font-size: 20px;
+}
+.body-txt-b3{
+    font-size: 16px;
+}
+.body-txt-b4{
+    font-size: 14px;
+}
+.body-txt-b5{
+    font-size: 12px;
+}
+.body-txt-b6{
+    font-size: 8px;
+}
+
+/*Font weight*/
+.font-bold{
+    font-weight: 700;
+}
+.font-regular{
+    font-weight: 400;
+}
+.font-medium{
+    font-weight:500;
+}
+
+/*Font color*/
+.clr-white{
+    color: var(--clr-white);
+}

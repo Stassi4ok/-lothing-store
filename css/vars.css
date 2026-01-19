@@ -1,0 +1,35 @@
+:root{
+    /* COLORS */
+    --clr-brown: #7B4E2E;
+    --clr-brown-dark: #392415;
+    --clr-brown-white: #B8A496;
+
+  
+    --clr-green: #637338 ;
+    --clr-green-light: #8D9577;
+    --clr-green-dark: #404A25 ;
+
+    --clr-white: #ffffff;
+    --clr-white-soft: #FFF6F1;
+
+    --clr-gray: #959595;
+    --clr-gray-dark: #484848;
+    --clr-gray-soft: #F7F8FC;
+
+    /* GAPS*/
+    --gap-xs: 4px;
+    --gap-sm: 8px;
+    --gap-md: 16px;
+    --gap-lg: 32px;
+    --gap-xl: 64px;
+
+    /* WIDTH */
+    --width-sm: 675px;
+    --width-full: 100%;
+
+    /*FONTS*/
+    --font-base: '"Amiri", serif;';
+    --font-second: '"Roboto", sans-serif';
+    
+
+}
