@@ -1,0 +1,94 @@
+footer{
+    background-color: var(--clr-white);
+    color: var(--clr-brown);
+    padding: var(--gap-xl) 0;
+
+}
+
+.footer-content{
+    display: grid;
+    grid-template-areas: "contact newsletter" "legal legal";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: var(--gap-xl);
+}
+
+.contacts{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-md);
+}
+.contacts li{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+}
+.social{
+    display: flex;
+    gap: var(--gap-md);
+}
+.social .icon{
+    height: 30px;
+    width: 30px;
+    fill: var(--clr-brown-light);
+}
+
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: var(--gap-md);
+    margin-bottom: var(--gap-md);
+    
+}
+
+.email-box{
+    background-color: var(--clr-green-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: var(--gap-xs);
+
+    
+}
+.email-box input{
+    background-color: var(--clr-green-light);
+    border: none;
+    padding: 10px;
+    color: var(--clr-white);
+    width: 80%;
+    height: 100%;
+    font-family: var(--font-second);
+    font-size: 15px;
+    
+}
+.email-box input:focus{
+    outline: none;
+}
+.email-box input::placeholder{
+    color: var(--clr-white-soft);
+}
+.email-box button{
+    color: var(--clr-green-light);
+    border: none;
+    border-radius: 10px;
+    background-color: var(--clr-white);
+    line-height: 25px;
+    padding: 4px;
+    font-family: var(--font-second);
+     font-size: 16px;
+     font-weight: 400;
+}
+
+.legal{
+    
+    grid-area: legal;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
