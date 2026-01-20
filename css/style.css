@@ -5,10 +5,17 @@
 }
 body{
     background-color: var(--clr-white-soft);
+    color: var(--clr-green-dark);
 }
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .page-header{
@@ -39,6 +46,16 @@ a{
    
 }
 
+.icon-sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--clr-white);
+    width: 15px;
+    height: 15px;
+   
+}
 
 .search{
     display:flex;
@@ -65,8 +82,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-     width: 25px;
+    width: 25px;
     padding: 0;
     border-radius: 99px;
+    border: none;
     background-color: var(--clr-green-dark);
 }

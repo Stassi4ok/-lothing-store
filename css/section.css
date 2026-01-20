@@ -1,7 +1,7 @@
 .section-content{
     display: flex;
     flex-direction: column;
-    gap: var(--gap-xl);
+    gap: var(--gap-xs);
     padding: var(--gap-xl) 0;
     
 }
@@ -9,6 +9,16 @@
 .section-header {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-xl);
+    gap: var(--gap-xs);
     max-width: var(--width-sm);  
+}
+.section-header-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--gap-xl);
+}
+.section-content.dividing-line{
+    border-bottom: 1px solid var(--clr-green-dark);
+
 }

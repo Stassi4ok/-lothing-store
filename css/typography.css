@@ -105,3 +105,9 @@
 .clr-white{
     color: var(--clr-white);
 }
+.clr-brown{
+    color: var(--clr-brown);
+}
+.clr-brown-white{
+    color: var(--clr-brown-white);
+}

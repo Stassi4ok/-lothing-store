@@ -2,7 +2,7 @@
     /* COLORS */
     --clr-brown: #7B4E2E;
     --clr-brown-dark: #392415;
-    --clr-brown-white: #B8A496;
+    --clr-brown-light: #B8A496;
 
   
     --clr-green: #637338 ;
@@ -28,8 +28,8 @@
     --width-full: 100%;
 
     /*FONTS*/
-    --font-base: '"Amiri", serif;';
-    --font-second: '"Roboto", sans-serif';
+    --font-base: "Amiri", serif;
+    --font-second: "Roboto", sans-serif;
     
 
 }

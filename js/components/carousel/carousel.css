@@ -1,0 +1,23 @@
+.home-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-md);
+}
+
+.carousel-track{
+    height: 50%;
+    width: 100%;
+
+}
+
+.carousel-track img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.carousel-track img.show {
+    display: inline;
+}
+
+

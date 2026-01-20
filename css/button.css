@@ -1,7 +1,7 @@
 .btn{
-    --btn-idle-fill: var(--clr-orange);
+    --btn-idle-fill: var(--clr-green-light);
     --btn-active-fill:var(--clr-blue);
-    --btn-label-color: white;
+    --btn-label-color: var(--clr-light);
     
 
     /*Reset*/
@@ -15,7 +15,7 @@
     font-weight: 500;
     padding: 10px 16px;
     border-radius: 5px;
-    border: 1px solid transparent;
+    border: 2px solid var( --btn-idle-fill);
     flex: none;
     cursor: pointer;
 }
