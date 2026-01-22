@@ -2,21 +2,23 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="../js/components/carousel/carousel.css">
+        <link rel="stylesheet" href="../css/pages/home.css">
     </head>
 
     <body>
         <main id="content" class="grid-container">
             <section class=" grid-content">
                 <div class="grid-content">
-                    <div class="home-carousel">
-                        <button class="prev-btn"><-</button>
+                    <div class="home-carousel carousel">
+                        <button class="btn prev-btn">❮</button>
                         <div class="carousel-track">
                             <img class="js-carousel-img show" src="../assets/images/carousel-banners/1.png">
                             <img class="js-carousel-img" src="../assets/images/carousel-banners/2.png">
                             <img class="js-carousel-img" src="../assets/images/carousel-banners/3.png">
-                            <img class="js-carousel-img" src="../assets/images/carousel-banners/4.png">
+                            
                         </div>
-                    <button class="next-btn">-></button>  
+                        <button class="btn next-btn">❯</button>
+                    </div>  
                 </div>
             </section>
 
@@ -206,8 +208,9 @@
                     </div>
                 </div>
             </section>
+            
         </main>
-        <script type="module" src=".././js/router/router.js"></script>
+        <script type="module" src="../js/pages/home.js"></script>
     </body>
     
 </html>
