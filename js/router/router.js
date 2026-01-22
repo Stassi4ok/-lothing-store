@@ -8,6 +8,12 @@ async function loadPage() {
     container.innerHTML = content;
     document.dispatchEvent(new CustomEvent('contentUpdated'));
     
+    // Dynamically load the page's JS module
+    try {
+        await import(`../pages/${fileName}.js`);
+    } catch (e) {
+        console.log(`No JS module for page: ${fileName}`);
+    }
 }
 
 window.addEventListener('hashchange', loadPage);
