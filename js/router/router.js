@@ -2,7 +2,7 @@
 const container = document.getElementById('content');
 
 async function loadPage() {
-    const fileName = window.location.hash.replace('#','') || 'home';
+    const fileName = window.location.hash.replace('#','') || 'catalog';
     
     try {
         const response = await fetch(`pages/${fileName}.html`);

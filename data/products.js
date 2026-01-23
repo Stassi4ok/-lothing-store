@@ -1,0 +1,222 @@
+export const products = [
+  {
+    id: '1550a8c41-126c-40d3-8c3b-d8e32c0a51e2',
+    title: 'Slim Fit Suit Jacket',
+    price: 99,
+    oldPrice: 120,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Elegant slim fit suit jacket made from high-quality fabric.',
+    rating: 4.4
+  },
+  {
+    id: '45473594-5b64-42e5-a612-ad94c49789aa',
+    title: 'Classic Leather Belt',
+    price: 45,
+    oldPrice: 60,
+    category: 'accessories',
+    image: { front: '', back: '' },
+    gallery: [],
+    description: 'Premium leather belt with classic buckle.',
+    rating: 4.2
+  },
+  {
+    id: '26afa2f8-802c-4f2e-a845-6678e0d260ee',
+    title: 'Casual Hoodie',
+    price: 55,
+    oldPrice: 70,
+    category: 'women',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Comfortable hoodie for everyday wear.',
+    rating: 4.5
+  },
+  {
+    id: 'df4e9505-2cfc-4bba-9d75-af6ac1900e4a',
+    title: 'Denim Jeans',
+    price: 65,
+    oldPrice: 80,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Classic blue denim jeans with regular fit.',
+    rating: 4.3
+  },
+  {
+    id: '71d58bc9-4c08-4651-8f3d-34906082af94',
+    title: 'Silk Scarf',
+    price: 35,
+    oldPrice: 50,
+    category: 'accessories',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Elegant silk scarf with modern print.',
+    rating: 4.6
+  },
+  {
+    id: 'f8364009-121e-48d6-9e7e-cf4cffeda96b',
+    title: 'Floral Summer Dress',
+    price: 75,
+    oldPrice: 90,
+    category: 'women',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Lightweight floral dress perfect for summer.',
+    rating: 4.7
+  },
+  {
+    id: '8bff6f8d-053c-4917-a177-2e6bcf066fa1',
+    title: 'Leather Wallet',
+    price: 50,
+    oldPrice: 65,
+    category: 'accessories',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Compact leather wallet with multiple compartments.',
+    rating: 4.3
+  },
+  {
+    id: '6d52d716-5270-4750-bf8f-5f6f49ebbc86',
+    title: 'Slim Fit Trousers',
+    price: 60,
+    oldPrice: 75,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Modern slim fit trousers for formal occasions.',
+    rating: 4.5
+  },
+  {
+    id: '5f916451-8faa-40b5-bb06-c53a800e3f2e',
+    title: 'Knitted Sweater',
+    price: 55,
+    oldPrice: 70,
+    category: 'women',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Warm knitted sweater for cozy days.',
+    rating: 4.6
+  },
+  {
+    id: '8d33473a-8017-4e6f-833e-f98fe1c6f021',
+    title: 'Sport Sneakers',
+    price: 85,
+    oldPrice: 100,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Comfortable sport sneakers for daily activities.',
+    rating: 4.4
+  },
+  {
+    id: '46a3df83-62f8-4f97-804c-78cd003ce184',
+    title: 'Classic Handbag',
+    price: 120,
+    oldPrice: 150,
+    category: 'women',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Stylish handbag with plenty of storage.',
+    rating: 4.7
+  },
+  {
+    id: '031f683d-822a-4c5f-a741-e6f29db76065',
+    title: 'Wool Coat',
+    price: 180,
+    oldPrice: 220,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Elegant wool coat for cold seasons.',
+    rating: 4.8
+  },
+  {
+    id: '6cff2384-2c2b-4c0c-8110-5366dd7dc5f4',
+    title: 'Sunglasses',
+    price: 55,
+    oldPrice: 70,
+    category: 'accessories',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'UV protection sunglasses with modern design.',
+    rating: 4.5
+  },
+  {
+    id: '1d82ae1e9-62a7-4e06-bb72-9a2666e50e9d4',
+    title: 'Pleated Skirt',
+    price: 65,
+    oldPrice: 80,
+    category: 'women',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Elegant pleated skirt for casual or office wear.',
+    rating: 4.6
+  },
+  {
+    id: '089a5d7b-0a50-4354-b6d4-1c4d752b83f6',
+    title: 'Casual Shirt',
+    price: 50,
+    oldPrice: 65,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Comfortable casual shirt in various colors.',
+    rating: 4.3
+  },
+  {
+    id: 'fb43e6c2-271c-4118-acca-d52e78770c94',
+    title: 'Leather Boots',
+    price: 130,
+    oldPrice: 160,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Durable leather boots for all seasons.',
+    rating: 4.7
+  },
+  {
+    id: 'c89f356b-a3f3-4167-8d66-af3435b6ecac',
+    title: 'Evening Gown',
+    price: 220,
+    oldPrice: 260,
+    category: 'women',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Luxurious evening gown for special occasions.',
+    rating: 4.9
+  },
+  {
+    id: 'e15a4af4-2f42-42bb-ba4a-e72362af5be8',
+    title: 'Backpack',
+    price: 80,
+    oldPrice: 100,
+    category: 'accessories',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Functional backpack for work, school, or travel.',
+    rating: 4.6
+  },
+  {
+    id: '1d771e3e-a3d4-4d4d-995f-97e87cba5db7',
+    title: 'Polo Shirt',
+    price: 45,
+    oldPrice: 60,
+    category: 'men',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Classic polo shirt for casual or semi-formal style.',
+    rating: 4.4
+  },
+  {
+    id: '147c0372-abc5-422b-a8bd-287016019c0f',
+    title: 'High Heels',
+    price: 90,
+    oldPrice: 110,
+    category: 'women',
+    image: { front: '', back: '' },
+    gallery: ['', '', '', ''],
+    description: 'Elegant high heels for evening or office wear.',
+    rating: 4.7
+  }
+];
