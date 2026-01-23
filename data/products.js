@@ -110,3 +110,50 @@ export const products = [
     rating: 4.8
   }
 ];
+
+export const bestsellerProducts = [
+    {
+    id: '1550a8c41-126c-40d3-8c3b-d8e32c0a51e2',
+    title: 'Slim Fit Suit Jacket',
+    price: 99,
+    oldPrice: 120,
+    category: 'men',
+    image: { front: './assets/images/products/Slim-Fit-Suit-Jacket-front.png', back: './assets/images/products/Slim-Fit-Suit-Jacket-back.png' },
+    gallery: ['./assets/images/products/Slim-Fit-Suit-Jacket-1.png', './assets/images/products/Slim-Fit-Suit-Jacket-2.png'],
+    description: 'Elegant slim fit suit jacket made from high-quality fabric.',
+    rating: 4.4
+  },
+  {
+    id: '45473594-5b64-42e5-a612-ad94c49789aa',
+    title: 'Classic Leather Belt',
+    price: 45,
+    oldPrice: 60,
+    category: 'accessories',
+    image: { front: './assets/images/products/Classic-Leather-Belt-front.png', back: './assets/images/products/Classic-Leather-Belt-back.png' },
+    gallery: [],
+    description: 'Premium leather belt with classic buckle.',
+    rating: 4.2
+  },
+  {
+    id: '71d58bc9-4c08-4651-8f3d-34906082af94',
+    title: 'Silk Scarf',
+    price: 35,
+    oldPrice: 50,
+    category: 'accessories',
+    image: { front: './assets/images/products/Silk-Scarf-front.png', back: './assets/images/products/Silk-Scarf-back.png' },
+    gallery: [],
+    description: 'Elegant silk scarf with modern print.',
+    rating: 4.6
+  },
+  {
+    id: 'f8364009-121e-48d6-9e7e-cf4cffeda96b',
+    title: 'Floral Summer Dress',
+    price: 75,
+    oldPrice: 90,
+    category: 'women',
+    image: { front: './assets/images/products/Floral-Summer-Dress-front.png', back: './assets/images/products/Floral-Summer-Dress-back.png' },
+    gallery: [],
+    description: 'Lightweight floral dress perfect for summer.',
+    rating: 4.7
+  }
+];

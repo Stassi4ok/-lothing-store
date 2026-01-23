@@ -25,7 +25,7 @@ export function createdCardHTML(product) {
                     <use href="#bookmarkSVG"></use>
                 </svg>
             </div>
-            <p class="body-txt-b font-regular clr-brown-white">${product.price}</p>
+            <p class="body-txt-b font-regular clr-brown-white">$${product.price}</p>
         </div>
     `
     article.innerHTML = html;
