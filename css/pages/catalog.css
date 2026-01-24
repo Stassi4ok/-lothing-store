@@ -61,12 +61,15 @@
 }
 
 .bookmark-icon{
-   fill: var(--clr-green-white);
+   fill: none;
+   stroke-width: 50px;
+   stroke: var(--clr-green);
    
     
 }
 .bookmark-icon.active{
     fill: var(--clr-green);
+    
 }
 
 .bookmarkBtn{
