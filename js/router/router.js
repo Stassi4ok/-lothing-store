@@ -27,7 +27,10 @@ async function loadPage() {
 
 async function loadPageScript(fileName) {
     try {
-        await import(`../pages/${fileName}.js`);
+        const module = await import(`../pages/${fileName}.js`);
+        if (module.init) {
+            module.init();
+        }
         console.log(`Loaded page module: ${fileName}`);
     } catch (error) {
         console.log(`No JS module for page: ${fileName}`);
