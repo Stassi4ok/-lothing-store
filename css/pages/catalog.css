@@ -69,7 +69,10 @@
     fill: var(--clr-green);
 }
 
-
+.bookmarkBtn{
+    border: none;
+    padding: 0;
+}
 
 
 
