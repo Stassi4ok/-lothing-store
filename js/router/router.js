@@ -1,42 +1,61 @@
-
 const container = document.getElementById('content');
 
+/* =========================
+   PARSE ROUTE
+========================= */
+function parseRoute(hash) {
+    const cleanHash = hash.replace('#', '');
+    const parts = cleanHash.split('/').filter(Boolean);
+
+    return {
+        page: parts[0] || 'home',
+        params: parts.slice(1)
+    };
+}
+
+/* =========================
+   LOAD PAGE
+========================= */
 async function loadPage() {
-    const fileName = window.location.hash.replace('#','') || 'home';
-    
+    const { page, params } = parseRoute(window.location.hash);
+
     try {
-        const response = await fetch(`pages/${fileName}.html`);
+        const response = await fetch(`pages/${page}.html`);
+        if (!response.ok) throw new Error('Page not found');
 
-        if(!response.ok){
-            throw new Error('Page not found');
-        }
+        container.innerHTML = await response.text();
 
-        const content = await (response).text();
-        container.innerHTML = content;
-        document.dispatchEvent(new CustomEvent('contentUpdated'));
-        loadPageScript(fileName);
+        document.dispatchEvent(
+            new CustomEvent('contentUpdated', {
+                detail: { page, params }
+            })
+        );
+
+        await loadPageScript(page, params);
 
     } catch (error) {
-        const content = await (await fetch(`pages/404.html`)).text();  
-        container.innerHTML = content;
-        document.dispatchEvent(new CustomEvent('contentUpdated'));
+        const response404 = await fetch(`pages/404.html`);
+        container.innerHTML = await response404.text();
     }
-   
-    
 }
 
-async function loadPageScript(fileName) {
+/* =========================
+   LOAD PAGE SCRIPT
+========================= */
+async function loadPageScript(page, params) {
     try {
-        const module = await import(`../pages/${fileName}.js`);
+        const module = await import(`../pages/${page}.js`);
         if (module.init) {
-            module.init();
+            module.init(params);
         }
-        console.log(`Loaded page module: ${fileName}`);
-    } catch (error) {
-        console.log(`No JS module for page: ${fileName}`);
+        console.log(`JS loaded: ${page}`);
+    } catch {
+        console.log(`No JS for page: ${page}`);
     }
 }
 
+/* =========================
+   EVENTS
+========================= */
 window.addEventListener('hashchange', loadPage);
-
-loadPage();
+window.addEventListener('load', loadPage);

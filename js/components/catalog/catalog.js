@@ -7,6 +7,10 @@ export function createdProductsCardsHTML(products){
     
     return productsCardsHTML;
 }
+export function categoryFilter(products, category) {
+    return products.filter(product => product.category === category);
+}
+
 
 function createdCardHTML(product) {
     const article = document.createElement('article');
