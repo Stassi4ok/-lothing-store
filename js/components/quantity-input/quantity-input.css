@@ -1,0 +1,45 @@
+.quantity-input {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 36px;
+
+  background: #fff;
+  border-radius: 999px;
+}
+
+.quantity-input .btn {
+  width: 10px;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  background: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.qty-input {
+  flex: 1;                
+  border: none;
+  background: transparent;
+
+  text-align: center;
+  font-size: 16px;
+
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.qty-input:focus {
+  outline: none;
+}
+
+.qty-input::-webkit-inner-spin-button,
+.qty-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

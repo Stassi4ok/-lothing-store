@@ -105,9 +105,16 @@
 .clr-white{
     color: var(--clr-white);
 }
+.clr-gray{
+    color: var(--clr-gray);
+}
 .clr-brown{
     color: var(--clr-brown);
+}
+.clr-brown-dark{
+    color: var(--clr-brown-dark);
 }
 .clr-brown-white{
     color: var(--clr-brown-white);
 }
+
