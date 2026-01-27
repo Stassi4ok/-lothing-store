@@ -32,7 +32,7 @@ export function createdProductHTML(productId){
 
                     <div class="add-to-bag">
                         <div class="js-quantity-container"></div>
-                        <button class="btn">Add to Bag</button>
+                        <button class="btn add-button">Add to Bag</button>
                         <button class="btn bookmarkBtn js-add-wishlist" data-product-id="${matchingProduct.id}">
                             <svg class="icon bookmark-icon ">
                                 <use href="#bookmarkSVG"></use>

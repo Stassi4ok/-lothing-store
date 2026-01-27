@@ -19,3 +19,7 @@
     flex: none;
     cursor: pointer;
 }
+
+.btn:active{
+    transform: translateY(1px) ;
+}
