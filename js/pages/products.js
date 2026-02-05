@@ -2,10 +2,15 @@ import { renderCatalog, createdProductsCardsHTML, categoryFilter} from "../compo
 import { products } from "../../data/products.js";
 
 export function init(productsParams) {
-    const category = productsParams[0];
+    
+    
+    const category = productsParams[0] || 'all';
+    console.log(category);
     const productsCategory = categoryFilter(products, category);
 
     const catalogContainer = document.querySelector('.js-catalog');
+    
+
     const productsCards = createdProductsCardsHTML(productsCategory);
     renderCatalog(productsCards, catalogContainer);
 
