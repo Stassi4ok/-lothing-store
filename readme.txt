@@ -3,11 +3,11 @@ Clothing Store — це навчальний петпроєкт онлайн-м�
 Проєкт не є комерційним і використовується виключно в освітніх цілях.
 
 🚀 Features
-![Home page](assets/screenshots/home.png)
 
 Каталог одягу
 ![catalog](assets/screenshots/catalog.png)
 Перегляд товарів з деталями
+![Product Details](assets/screenshots/product_details.png)
 
 Додавання товарів у кошик
 
