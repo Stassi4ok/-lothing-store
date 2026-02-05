@@ -1,27 +1,21 @@
 ## 🛍️ Clothing Store
 
-**Clothing Store** — це навчальний петпроєкт онлайн-магазину одягу, створений для практики веб-розробки, роботи з UI, логіки магазину та базових e-commerce фіч.
+**Clothing Store** is an educational pet project of an online clothing store, created for the practice of web development, UI work, store logic and basic e-commerce features.
 
-Проєкт **не є комерційним** і використовується виключно в освітніх цілях.
+The project is **non-commercial** and is used for educational purposes.
 
 ---
 
 ## 🚀 Features
 
-### 📦 Каталог одягу
-![Catalog](assets/screenshots/catalog.png)
+### 📦 Clothing catalog
 
-### 👕 Перегляд товарів з деталями
-![Product Details](assets/screenshots/product_details.png)
+### 👕 View products with details
 
-### 🛒 Кошик
-- Додавання товарів у кошик  
-- Видалення товарів з кошика  
-- Підрахунок загальної вартості  
+### 🛒 Cart
+- Adding products to the cart
+- Removing products from the cart
+- Calculating the total cost
 
-![Cart](assets/screenshots/cart.png)
-
-### ❤️ Обране
-- Можливість зберігати товари в обране  
-
-![Wishlist](assets/screenshots/wishlist.png)
+### ❤️ Favorites
+- Possibility to protect the company in favorites
